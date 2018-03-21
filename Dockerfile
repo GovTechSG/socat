@@ -7,4 +7,5 @@ LABEL Maintainer="Wallace Tan <wallace_tan@tech.gov.sg>" \
 RUN  yum update -y && \
     yum install -y socat net-tools && \
     yum install -y openssh-clients bash openssl && \
+    yum install -y redis && \
     yum clean all
